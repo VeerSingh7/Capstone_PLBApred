@@ -1,0 +1,12 @@
+{
+    "batch_size": 64,
+    "learning_rate": 0.000575,
+    "num_epochs": 8,
+    "weight_decay": 1e-05,
+    "gradient_clip": 1.0,
+    "warmup_epochs": 3,
+    "patience": 10,
+    "device": "mps",
+    "total_params": 709633,
+    "trainable_params": 709633
+}
