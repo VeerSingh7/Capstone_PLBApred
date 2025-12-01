@@ -1,0 +1,34 @@
+============================================================
+KIBA DATASET INFORMATION
+============================================================
+Source: Therapeutics Data Commons (TDC)
+Original Paper: Tang et al. (2014) J Chem Inf Model
+
+DATASET STATISTICS
+------------------------------------------------------------
+Total Interactions:  117,657
+Unique Drugs:        2,068
+Unique Targets:      229
+
+AFFINITY DISTRIBUTION
+------------------------------------------------------------
+Min:     0.000
+Q1:      11.200
+Median:  11.520
+Q3:      11.924
+Max:     17.200
+Mean:    11.721
+Std:     0.834
+
+DATA SPLITS (Cold Drug Split)
+------------------------------------------------------------
+Train:   82,539 (70.2%)
+Valid:   12,023 (10.2%)
+Test:    23,095 (19.6%)
+
+COLUMN DESCRIPTIONS
+------------------------------------------------------------
+Drug:   SMILES representation of small molecule
+Target: Amino acid sequence of protein kinase
+Y:      KIBA score (lower = stronger binding)
+
